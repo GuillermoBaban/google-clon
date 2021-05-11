@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  margin: 11px 11px 0px 0px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  position: static;
+  padding: 5px;
+}
+
+li a {
+  font-size: 12.5px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.borde-bot:hover {
+  border-bottom: 1px solid;
+}
+
+.hov {
+  padding: 10px;
+}
+
+.hov-bol {
+  padding: 10px;
+}
+
+.logo-G {
+  border-radius: 50px;
+  width: 29px;
+  cursor: pointer;
+}
+
+.logo-G:hover {
+  box-shadow: 0px 0px 2px 3px rgb(0 0 0 / 15%);
+}
+
+.bolitas:hover {
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px 10px rgb(0 0 0 / 15%);
+  background-color: rgb(0 0 0 / 15%);
+}
+
+.bolitas {
+  width: 17px;
+  margin: 0px 3px 0px 3px;
+  cursor: pointer;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#logo {
+  width: 330px;
+}
+
+.home__search-container {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.home__form {
+  background: white;
+  border: 1px solid rgba(32, 33, 36, 0.28);
+  border-radius: 22px;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 44px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 564px;
+  cursor: text;
+}
+
+.home__form .google-search {
+  font-family: "Segoe UI", "Roboto", arial, sans-serif;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 92%;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 0 48px;
+  padding-right: 0;
+  outline: none;
+}
+
+.home__form:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-radius: 22px;
+}
+
+.home__form .fa-search {
+  color: #999;
+  float: left;
+  margin-left: 21px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.form__microphone-icon {
+  border: 0;
+  background: url(../img/google-microfono.svg) no-repeat center;
+  background-size: 21px 21px;
+  cursor: pointer;
+  padding: 22px 12px 0;
+  width: 21px;
+  float: right;
+  margin-top: 11px;
+  margin-right: 16px;
+}
+
+.botones {
+  position: absolute;
+  bottom: 45vh;
+}
+
+.pieB {
+  position: absolute;
+  bottom: 40vh;
+}
+
+.pieB p {
+  font-size: 14px;
+}
+
+.pieB p a {
+  text-decoration: none;
+}
+
+#btn,
+#btn-B {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: none;
+  margin-left: 11px;
+  color: #202124;
+  border-radius: 5px;
+}
+
+#btn-B:hover,
+#btn:hover {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.pie-padre {
+  margin-top: 260px;
+  background-color: #f2f2f2;
+}
+
+.pie1 {
+  padding: 12px;
+  margin-left: 15px;
+}
+
+hr {
+  opacity: 30%;
+}
+
+.pie2 {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+  padding: 12px;
+  background-color: #f2f2f2;
+}
+
+.pie3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  background-color: #f2f2f2;
+}
+
+.pie2 p,
+.pie3 p {
+  margin-left: 20px;
+}
+
+.pie1,
+.pie2 a,
+.pie3 a {
+  text-decoration: none;
+  color: #848484;
+}
+
+/* caja desplegable */
+
+.caja-des {
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 15px -5px rgba(0, 0, 0, 0.75);
+  border: 1px solid #dadce0;
+  position: absolute;
+  width: 300px;
+  height: 370px;
+  z-index: 3;
+  border-radius: 8px;
+  right: 0;
+  margin: 7px 12px;
+}
+
+.ima {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ima img {
+  border-radius: 50px;
+}
+
+.texto {
+  margin-top: 13px;
+  text-align: center;
+}
+
+#marg {
+  margin-bottom: 1px;
+}
+
+#gui-s {
+  color: #5f6368;
+}
+
+.btn1 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.btn1 button {
+  padding: 8px 14px 8px 14px;
+  border-radius: 15px;
+  border: 1px solid #dadce0;
+  color: #484c50;
+  cursor: pointer;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.btn1 button:hover {
+  background-color: #f7f8f8;
+}
+.btn3 {
+  text-align: center;
+}
+
+.btn3 a {
+  padding: 14px 41px;
+  display: table;
+  text-decoration: none;
+  color: #484c50;
+  letter-spacing: 0.25px;
+  width: 100%;
+  font: 500 14px/16px Google Sans, Roboto, RobotoDraft, Helvetica, Arial,
+    sans-serif;
+}
+
+.btn4 {
+  text-align: center;
+  padding: 12px 41px;
+}
+
+.btn4 button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #dadce0;
+  background-color: white;
+  cursor: pointer;
+  color: #484c50;
+}
+
+.btn4 button:hover {
+  background-color: #f7f8f8;
+}
+
+.fotD {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.fotD a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #484c50;
+  padding: 3px;
+}
+
+.fotD a:hover {
+  background-color: #f7f8f8;
+  border-radius: 4px;
+}
+
+.segun-des {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 15px -5px rgba(0, 0, 0, 0.75);
+  border: 1px solid #dadce0;
+  position: absolute;
+  width: 300px;
+  height: 370px;
+  z-index: 3;
+  border-radius: 8px;
+  right: 0;
+  margin: 7px 12px;
+  overflow-y: scroll;
+  display: none;
+  grid-template-rows: repeat(4, 80px);
+  grid-template-columns: repeat(3, 80px);
+  grid-gap: 10px 10px;
+  padding: 20px;
+}
+
+.segun-des img {
+  width: 37px;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.ImNav p {
+  text-align: center;
+  margin-left: 5px;
+}
+
+.ImNav:hover {
+  background: rgba(41, 98, 255, 0.1);
+  border-radius: 10px;
+}
