@@ -1,3 +1,6 @@
+
+Website created to put into practice knowledge about DOM manipulation.
+
 Pagina web creada para poner en practica conocimientos sobre manipulacion del DOM.
 
 Tocnologias: HTML,CSS y JS vanilla
